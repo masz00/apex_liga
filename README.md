@@ -76,5 +76,5 @@ Przykład błedów walidacji:
 
 - **Oracle APEX** – logika aplikacji i frontend.
 - **Oracle Database** – przechowywanie danych.
-- **Python + Selenium** – scraping danych (`match_scraper.py`).
+- **Python + Selenium** – scraping danych
 
