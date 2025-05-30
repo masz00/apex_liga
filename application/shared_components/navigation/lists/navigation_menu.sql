@@ -1,0 +1,88 @@
+prompt --application/shared_components/navigation/lists/navigation_menu
+begin
+--   Manifest
+--     LIST: Navigation Menu
+--   Manifest End
+wwv_flow_imp.component_begin (
+ p_version_yyyy_mm_dd=>'2024.05.31'
+,p_release=>'24.1.4'
+,p_default_workspace_id=>47527763449748886
+,p_default_application_id=>236
+,p_default_id_offset=>0
+,p_default_owner=>'WKSP_WS155830'
+);
+wwv_flow_imp_shared.create_list(
+ p_id=>wwv_flow_imp.id(167631553953662964)
+,p_name=>'Navigation Menu'
+,p_list_status=>'PUBLIC'
+,p_version_scn=>499202496
+);
+wwv_flow_imp_shared.create_list_item(
+ p_id=>wwv_flow_imp.id(459780993941859860)
+,p_list_item_display_sequence=>10
+,p_list_item_link_text=>'Tabele'
+,p_list_item_link_target=>'f?p=&APP_ID.:21:&SESSION.::&DEBUG.::::'
+,p_list_item_icon=>'fa-align-justify'
+,p_list_item_current_type=>'COLON_DELIMITED_PAGE_LIST'
+,p_list_item_current_for_pages=>'21'
+);
+wwv_flow_imp_shared.create_list_item(
+ p_id=>wwv_flow_imp.id(174966859430992384)
+,p_list_item_display_sequence=>15
+,p_list_item_link_text=>'Mecze'
+,p_list_item_link_target=>'f?p=&APP_ID.:32:&SESSION.::&DEBUG.::::'
+,p_list_item_icon=>'fa-futbol-o'
+,p_list_item_current_type=>'COLON_DELIMITED_PAGE_LIST'
+,p_list_item_current_for_pages=>'32'
+);
+wwv_flow_imp_shared.create_list_item(
+ p_id=>wwv_flow_imp.id(167957803329663358)
+,p_list_item_display_sequence=>17
+,p_list_item_link_text=>'Ligi'
+,p_list_item_link_target=>'f?p=&APP_ID.:4:&SESSION.::&DEBUG.::::'
+,p_list_item_icon=>'fa-trophy'
+,p_list_item_current_type=>'TARGET_PAGE'
+);
+wwv_flow_imp_shared.create_list_item(
+ p_id=>wwv_flow_imp.id(167940428867663311)
+,p_list_item_display_sequence=>20
+,p_list_item_link_text=>'Kluby'
+,p_list_item_link_target=>'f?p=&APP_ID.:2:&SESSION.::&DEBUG.::::'
+,p_list_item_icon=>'fa-stock-chart'
+,p_list_item_current_type=>'TARGET_PAGE'
+);
+wwv_flow_imp_shared.create_list_item(
+ p_id=>wwv_flow_imp.id(168046748924663682)
+,p_list_item_display_sequence=>45
+,p_list_item_link_text=>'Zawodnicy'
+,p_list_item_link_target=>'f?p=&APP_ID.:16:&SESSION.::&DEBUG.::::'
+,p_list_item_icon=>'fa-person-running'
+,p_list_item_current_type=>'TARGET_PAGE'
+);
+wwv_flow_imp_shared.create_list_item(
+ p_id=>wwv_flow_imp.id(167990233765663468)
+,p_list_item_display_sequence=>50
+,p_list_item_link_text=>unistr('S\0119dziowie')
+,p_list_item_link_target=>'f?p=&APP_ID.:8:&SESSION.::&DEBUG.::::'
+,p_list_item_icon=>'fa-pencil'
+,p_list_item_current_type=>'TARGET_PAGE'
+);
+wwv_flow_imp_shared.create_list_item(
+ p_id=>wwv_flow_imp.id(168018212342663574)
+,p_list_item_display_sequence=>70
+,p_list_item_link_text=>'Stadiony'
+,p_list_item_link_target=>'f?p=&APP_ID.:12:&SESSION.::&DEBUG.::::'
+,p_list_item_icon=>'fa-podium'
+,p_list_item_current_type=>'TARGET_PAGE'
+);
+wwv_flow_imp_shared.create_list_item(
+ p_id=>wwv_flow_imp.id(168031308108663625)
+,p_list_item_display_sequence=>80
+,p_list_item_link_text=>'Trenerzy'
+,p_list_item_link_target=>'f?p=&APP_ID.:14:&SESSION.::&DEBUG.::::'
+,p_list_item_icon=>'fa-male'
+,p_list_item_current_type=>'TARGET_PAGE'
+);
+wwv_flow_imp.component_end;
+end;
+/
